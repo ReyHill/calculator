@@ -88,3 +88,20 @@ const nine = document.querySelector('#nine');
 nine.addEventListener('click', () => {
     displayValue.textContent = 9;
 });
+
+const addition = document.querySelector('#addition');
+addition.addEventListener('click', () => {
+    displayValue.textContent = '+';
+});
+const subtraction = document.querySelector('#subtraction');
+subtraction.addEventListener('click', () => {
+    displayValue.textContent = '-';
+});
+const multiplication = document.querySelector('#multiplication'); 
+multiplication.addEventListener('click', () => {
+    displayValue.textContent = '*';
+});
+const division = document.querySelector('#division');
+division.addEventListener('click', () => {
+    displayValue.textContent = '/';
+});
