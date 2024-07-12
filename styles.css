@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    font-size: 25px;
+    font-family: serif;
 }
 
 body {
@@ -8,27 +10,29 @@ body {
    justify-content: center;
    align-content: center;
    height: 100vh;
+   background-color: sienna;
 }
 
-button{
+button {
     height: 50px;
     width: 50px;
+    background-color: chocolate;
+    border-radius: 10px;
 }
 
 #zero {
-    flex-basis: 100px;
+    width: 120px;
 }
 
 .calculator {
     display: flex;
     flex-direction: column;
-    border: solid black 5px;
+    border: solid goldenrod 5px;
     height: 500px;
     width: 500px;
 }
 
 .display {
-    border: solid red 5px;;
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -36,8 +40,17 @@ button{
     flex-grow: 0.25;
 }
 
+.screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    width: 250px;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
 .button-row-container {
-    border: solid blue 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,6 +60,18 @@ button{
 
 .button-row {
     display: flex;
-    width: 200px;
+    width: 280px;
     margin-bottom: 10px;
+}
+
+.button-row-left {
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+}
+
+.button-row-right {
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
 }
