@@ -20,7 +20,7 @@ button {
     border-radius: 10px;
 }
 
-#d1 {
+#d0 {
     font-size: 15px;
 }
 
@@ -45,6 +45,7 @@ button {
     justify-content: center;
     align-items: center;
     border: solid black;
+    height: 55px;
     width: 250px;
     margin-top: 10px;
     font-size: 50px;
