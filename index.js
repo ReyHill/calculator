@@ -47,13 +47,13 @@ function operate(num1, operator, num2) {
   const valB = parseFloat(num2); 
     switch (operator) {
         case '+': 
-            return add(valA, valB).toFixed(4);
+            return parseFloat ( add(valA, valB).toFixed(4) );
         case '-':
-            return subtract(valA, valB).toFixed(4);
+            return parseFloat( subtract(valA, valB).toFixed(4) );
         case '*': 
-            return multiply(valA, valB).toFixed(4);
+            return parseFloat ( multiply(valA, valB).toFixed(4) );
         case '/':
-            return divide(valA, valB).toFixed(4);
+            return parseFloat ( divide(valA, valB).toFixed(4) );
         default:
             console.log(ERROR);
             console.log(`${num1} ${operator} ${num2}}`);
